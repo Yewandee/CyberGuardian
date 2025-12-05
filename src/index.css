@@ -1,0 +1,76 @@
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+
+@layer utilities {
+:root {
+  --background: #0c111b;
+  --foreground: #f3f6fb;
+  --card: #131821;
+  --card-foreground: #f3f6fb;
+  --popover: #0f1520;
+  --popover-foreground: #f3f6fb;
+
+  --primary: #3399ff;             
+  --primary-foreground: #0c111b;
+
+  --secondary: #1d2430;
+  --secondary-foreground: #f3f6fb;
+
+  --accent: #00d5ff;
+  --accent-foreground: #0c111b;
+
+  --destructive: #ff4d4f;
+  --destructive-foreground: #f3f6fb;
+
+  --border: #2a313d;
+  --input: #1a202c;
+  --ring: #3399ff;
+
+  --radius: 0.75rem;
+  --cyber-glow: #00eaff;
+  --cyber-primary: #3399ff;
+  --cyber-secondary: #6a5cff;
+
+  --gradient-hero: linear-gradient(135deg, #0c111b 0%, #131821 50%, #1a2330 100%);
+  --gradient-primary: linear-gradient(135deg, #3399ff 0%, #00eaff 100%);
+  --gradient-accent: linear-gradient(90deg, #3399ff 0%, #6a5cff 100%);
+
+  --shadow-glow: 0 0 30px rgba(0, 234, 255, 0.3);
+  --shadow-cyber: 0 10px 40px -10px rgba(51, 153, 255, 0.5);
+
+}
+
+.dark {
+  --background: #0c111b;
+  --foreground: #f3f6fb;
+
+}
+.bg-priColor { background-color: var(--background); }
+  .text-priColor { color: var(--foreground); }
+
+  .bg-gradient-primary { background: var(--gradient-primary); }
+  .bg-gradient-hero { background: var(--gradient-hero); }
+  .bg-gradient-accent { background: var(--gradient-accent); }
+
+  .text-primary { color: var(--primary); }
+  .text-secondary { color: var(--secondary); }
+  .text-accent { color: var(--accent); }
+
+  .border-priColor { border-color: var(--border); }
+  .rounded-radius { border-radius: var(--radius); }
+
+  .scrollbar-none::-webkit-scrollbar { display: none; }
+  .scrollbar-none { -ms-overflow-style: none; scrollbar-width: none}
+}
+
+
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: var(--foreground);
+  border: var(--border)
+}
