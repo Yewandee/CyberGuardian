@@ -40,6 +40,7 @@ const Contact  = () => {
           type: "success",
           message: "Your message has been sent successfully!",
         });
+        setTimeout(() => setStatus(null), 60000);
       })
       .catch((error) => {
         console.error("Error sending email:", error);
@@ -47,6 +48,7 @@ const Contact  = () => {
           type: "error",
           message: "Failed to send message. Please try again later.",
         });
+        setTimeout(() => setStatus(null), 60000);
       });
   };
 
