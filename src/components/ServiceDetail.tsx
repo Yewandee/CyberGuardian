@@ -63,7 +63,7 @@ const ServiceDetail = () => {
           <div className="bg-gradient-primary p-4 w-16 h-16 rounded-lg flex items-center justify-center text-white mr-4">
             <Icon className="w-8 h-8" />
           </div>
-          <p className="text-lg font-semibold text-(--primary)/80">{service.description}</p>
+          <p className="text-md md:text-lg font-semibold text-(--primary)/80">{service.description}</p>
         </div>
 
         <ul className="list-disc list-inside space-y-2  mb-6">

@@ -30,9 +30,9 @@ const About = () => {
     <section id="about" className="min-h-screen bg-(--gradient-hero) flex items-center justify-center overflow-hidden">
         <div className="py-5 text-center ">
 
-        <h1 className="text-(--primary) text-5xl font-bold">About CyberGuardians</h1>
+        <h1 className="text-(--primary) text-4xl md:text-6xl font-bold">About CyberGuardians</h1>
 
-        <p className="text-xl text-gray-300 pt-5">
+        <p className="text-xs md:text-xl text-gray-300 pt-5">
             Founded by cybersecurity experts, CyberGuardians is dedicated to empowering individuals and organizations 
             with the knowledge and skills needed to defend against evolving cyber threats. We combine cutting-edge 
             training methodologies with real-world experience to deliver exceptional results.

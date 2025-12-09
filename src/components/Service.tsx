@@ -9,7 +9,7 @@ const Service = () => {
     <section id='services' className="min-h-screen bg-(--gradient-hero) flex items-center justify-center overflow-hidden">
         <div className="py-5 text-center ">
 
-        <h1 className="text-(--primary) text-5xl font-bold">Our Services</h1>
+        <h1 className="text-(--primary) text-4xl md:text-6xl font-bold">Our Services</h1>
 
         <p className="text-xl text-gray-300 pt-5">
             Comprehensive cybersecurity training programs designed to elevate your skills and career

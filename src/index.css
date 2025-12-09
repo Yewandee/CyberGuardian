@@ -18,12 +18,6 @@
   --secondary: #1d2430;
   --secondary-foreground: #f3f6fb;
 
-  --accent: #00d5ff;
-  --accent-foreground: #0c111b;
-
-  --destructive: #ff4d4f;
-  --destructive-foreground: #f3f6fb;
-
   --border: #2a313d;
   --input: #1a202c;
   --ring: #3399ff;
@@ -31,11 +25,9 @@
   --radius: 0.75rem;
   --cyber-glow: #00eaff;
   --cyber-primary: #3399ff;
-  --cyber-secondary: #6a5cff;
 
   --gradient-hero: linear-gradient(135deg, #0c111b 0%, #131821 50%, #1a2330 100%);
   --gradient-primary: linear-gradient(135deg, #3399ff 0%, #00eaff 100%);
-  --gradient-accent: linear-gradient(90deg, #3399ff 0%, #6a5cff 100%);
 
   --shadow-glow: 0 0 30px rgba(0, 234, 255, 0.3);
   --shadow-cyber: 0 10px 40px -10px rgba(51, 153, 255, 0.5);

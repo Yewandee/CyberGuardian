@@ -11,9 +11,9 @@ const Home = () => {
                 <p>Private Cybersecurity Tutoring</p>
             </div>
 
-        <h1 className="text-(--primary) text-6xl font-bold">Protect Your Digital Future with CyberGuardians</h1>
+        <h1 className="text-(--primary) text-4xl md:text-6xl font-bold">Protect Your Digital Future with CyberGuardians</h1>
 
-        <h3>Expert cybersecurity training and services to safeguard your business and enhance your skills in the digital age</h3>
+        <h3 className="text-xs md:text-2xl">Expert cybersecurity training and services to safeguard your business and enhance your skills in the digital age</h3>
 
         <div className="flex justify-center gap-5 mt-10">
            <Button className="bg-linear-to-r from-[#3399ff] to-[#00eaff] text-gray-700 " onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}>
@@ -23,7 +23,7 @@ const Home = () => {
                 Learn More
             </Button>
         </div>
-    </div>
+        </div>
 
     </section>
    

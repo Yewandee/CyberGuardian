@@ -12,7 +12,7 @@ const Button: React.FC<ButtonProps> = ({
   ...props
 }) => {
   const baseClass =
-    "w-50 h-10 bg-primary px-4 py-1 rounded-md font-semibold text-lg transition-colors duration-150 cursor-pointer";
+    "md:w-50 h-10 bg-primary px-4 py-1 rounded-md font-semibold text-lg transition-colors duration-150 cursor-pointer";
 
   const variantClass =
     variant === "primary"
