@@ -1,10 +1,7 @@
-import React from 'react'
+
 
 const Testimonial = () => {
 
-    const Testimonials = [
-
-    ]
   return (
     <section id="testimonials" className="min-h-screen bg-(--gradient-hero) flex items-center justify-center overflow-hidden">
         <div className="py-5 text-center ">

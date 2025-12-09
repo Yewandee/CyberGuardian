@@ -4,7 +4,7 @@ import Footer from "./components/Footer"
 import Home from "./components/Home"
 import Navbar from "./components/Navbar"
 import Service from "./components/Service"
-import Testimonial from "./components/Testimonial"
+// import Testimonial from "./components/Testimonial"
 
 const Pages = () => {
   return (
