@@ -3,14 +3,13 @@ import { trainingPrograms } from '../data/ServiceData.js'
 import Button from './ui/Button.js'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { ArrowLeft, Timer } from 'lucide-react'
-import { PayPalButtons, PayPalScriptProvider } from '@paypal/react-paypal-js'
+// import { PayPalButtons, PayPalScriptProvider } from '@paypal/react-paypal-js'
 
 const ServiceDetail = () => {
   const { id } = useParams()
   const service = trainingPrograms.find((s) => s.id === id)
   const navigate = useNavigate()
-  const [showPaymentOption, setShowPaymentOption] = useState(false)
-
+  // const [showPaymentOption, setShowPaymentOption] = useState(false)
 
     if (!service) {
         return (
@@ -25,17 +24,17 @@ const ServiceDetail = () => {
     const Icon = service.icon
 
 
- const paypalOptions = {
-    "client-id": "test",
-    currency: "EUR",
+//  const paypalOptions = {
+//     "client-id": "test",
+//     currency: "EUR",
 
-  }
+//   }
 
-  const initialOptions = {
-  clientId: "AbxcGWCPVeK23qlstblwvh_y4_PJ7b8AI3IPgC99pxpw8Xl3ipZW5QATP6vcLeNjUDNW6v1GOu09HZRt",
-  currency: "EUR",
-  components: "buttons",
-};
+//   const initialOptions = {
+//   clientId: "AbxcGWCPVeK23qlstblwvh_y4_PJ7b8AI3IPgC99pxpw8Xl3ipZW5QATP6vcLeNjUDNW6v1GOu09HZRt",
+//   currency: "EUR",
+//   components: "buttons",
+// };
 
   return (
     <div className="min-h-screen bg-background px-6 md:px-20 py-10">
@@ -75,13 +74,13 @@ const ServiceDetail = () => {
 
         <h3 className='text-(--foreground) font-semibold text-2xl text-center'>€{service.price}</h3>
 
-          {!showPaymentOption && (
+          {/* {!showPaymentOption && (
           <Button className="bg-gradient-primary text-white border-none w-full py-2" onClick={() => setShowPaymentOption(true)}>
             Enroll Now
           </Button>
-          )}
+          )} */}
 
-          {showPaymentOption && (
+          {/* {showPaymentOption && (
             <div className="mt-6">
             <PayPalScriptProvider options={initialOptions}>
                 <PayPalButtons
@@ -99,7 +98,7 @@ const ServiceDetail = () => {
                     }),
                   });
 
-                  // const data = await response.json();
+                  const data = await response.json();
                    const orderData = await response.json();
 
                             if (orderData.id) {
@@ -145,7 +144,7 @@ const ServiceDetail = () => {
 
           </PayPalScriptProvider>
         </div>
-          )}
+          )} */}
         
        
       </div>

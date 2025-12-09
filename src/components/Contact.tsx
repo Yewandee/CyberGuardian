@@ -29,7 +29,7 @@ const Contact  = () => {
     };
 
     emailjs
-      .send(serviceId, templateId, templateParams, publicKey)
+      .send(serviceId, templateId, templateParams, publicKey )
       .then((response) => {
         console.log("Email sent successfully!", response);
         setName("");
