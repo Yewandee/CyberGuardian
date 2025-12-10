@@ -56,7 +56,7 @@ export const trainingPrograms: TrainingProgram[] = [
       "Advanced threat hunting with enterprise-level tools",
       "Building automated playbooks for SOC processes",
       "Creating workbooks and dashboards for visualization",
-      "Writing advanced Kusto Query Language (KQL) analytics rules",
+      "Learn how to build analytics rule and detection rules using kusto query language",
       "Reducing false positives and improving detection quality",
       "Developing SOC strategy and enterprise SOC architecture",
       "Understanding data connectors, log sources, and normalization",
@@ -78,10 +78,10 @@ export const trainingPrograms: TrainingProgram[] = [
     ],
     fullDetails: [
       "Onboarding Windows, iOS, and Android devices into Microsoft Intune",
-      "Device registration and join processes",
+      "Learn cyber security assessment- Access company infrastructure, on premise, cloud, and give feedback on improvements.",
       "Adding endpoint agents to Windows devices",
       "Creating device configuration and compliance policies",
-      "Learning Microsoft Identity fundamentals",
+      "Learning Microsoft Identity",
       "Creating Conditional Access policies for Zero Trust access control",
       "Understanding Microsoft Defender for Endpoint and its investigation features",
       "Configuring Antivirus and Attack Surface Reduction (ASR) rules",
@@ -89,6 +89,7 @@ export const trainingPrograms: TrainingProgram[] = [
       "Defender for Cloud Apps – Cloud security posture management",
       "Creating App Protection Policies for mobile devices",
       "Implementing enterprise-level endpoint and cloud security",
+      "Learn cost optimization, help your SOC with reduce cost and unnecessary ingestion"
     ],
   },
 ];

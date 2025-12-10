@@ -66,7 +66,7 @@ const ServiceDetail = () => {
           <p className="text-md md:text-lg font-semibold text-(--primary)/80">{service.description}</p>
         </div>
 
-        <ul className="list-disc list-inside space-y-2  mb-6">
+        <ul className="list-disc space-y-3 md:space-y-2 text-xs md:text-lg mb-6">
           {service.fullDetails.map((item, i) => (
             <li key={i}>{item}</li>
           ))}
